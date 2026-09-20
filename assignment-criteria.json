@@ -1,9 +1,0 @@
-{
-    "criteria" : [
-       "1. There are at least 3 Github commits",
-       "2. All tests must pass. Pass rate should be 100 %",
-       "3. Code similarity for each file in the assignment should be at least 20 %",
-       "4. The student reflection is acceptable"          
-    ],
-   "files" : ["one_package.py", "process_file.py", "process_files.py"]
-}

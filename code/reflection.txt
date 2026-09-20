@@ -1,0 +1,6 @@
+Write your reflection here.
+
+See reflection.md for what makes a good reflection — be specific, use the
+terminology from this assignment (rerun, widget, return value, guard, bytes vs.
+text, decode, session state, initialise once, button-triggered, metric), and make
+it actionable.

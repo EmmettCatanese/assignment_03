@@ -1,4 +1,4 @@
 25 balls in 1 bucket / 4 buckets in 1 bin
 4 tires in 1 car / 20 cars in 1 lot / 3 lots in 1 property
-30 tablets in i blister pack / 12 blister packs in 1 carton / 4 cartons in 1 box
-8 vials in 1 carton 
+30 tablets in 1 blister pack / 12 blister packs in 1 carton / 4 cartons in 1 box
+8 vials in 1 carton

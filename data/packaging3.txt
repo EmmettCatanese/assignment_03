@@ -2,7 +2,7 @@
 25 balls in 1 bucket / 4 buckets in 1 bin
 52 cards in 1 deck / 8 decks in 1 shoe
 4 tires in 1 car / 20 cars in 1 lot / 3 lots in 1 property
-30 tablets in i blister pack / 12 blister packs in 1 carton / 4 cartons in 1 box
-24 cans in 1 case / 16 cases in 1 stack / 12 stacks in 1 pallet 
+30 tablets in 1 blister pack / 12 blister packs in 1 carton / 4 cartons in 1 box
+24 cans in 1 case / 16 cases in 1 stack / 12 stacks in 1 pallet
 8 ounces in 1 cup / 2 cups in 1 pint / 2 pints in 1 quart / 4 quarts in 1 gallon
 1000 mm in 1 m / 1000 m in 1 km

@@ -1,6 +1,2 @@
-jupyter
-streamlit
-pandas
-numpy
-matplotlib
 pytest
+streamlit>=1.56

@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "max": 10,
+  "code_path": "code",
+  "cases": [
+    {
+      "id": "test_streamlit.py",
+      "name": "Streamlit Tests",
+      "description": "Tests in test_streamlit.py — they run each of the three apps with Streamlit's AppTest (typing into the text box, uploading files, clicking the button) and check what the page says, that the JSON files are written, and that process_files.py keeps its counts across reruns.",
+      "judge": "auto",
+      "max": 3,
+      "metric": "ratio",
+      "levels": [
+        { "id": "all", "label": "All Streamlit tests pass", "points": 3, "min": 1 },
+        { "id": "most", "label": "More than 1/2 of the Streamlit tests pass", "points": 2, "min": 0.5 },
+        { "id": "some", "label": "At least one Streamlit test passes", "points": 1, "min": 0.01 },
+        { "id": "none", "label": "No Streamlit tests pass", "points": 0, "min": 0 }
+      ]
+    },
+    {
+      "id": "test_code.py",
+      "name": "Code Structure Tests",
+      "description": "Tests in test_code.py — they parse each app's source and check it is built the right way: imports packaging_parser and streamlit, calls the parser's functions rather than re-implementing them, uses the required widgets (text_input, file_uploader, button, metric), decodes the upload, writes with json.dump, and keeps state in st.session_state.",
+      "judge": "auto",
+      "max": 3,
+      "metric": "ratio",
+      "levels": [
+        { "id": "all", "label": "All code structure tests pass", "points": 3, "min": 1 },
+        { "id": "most", "label": "More than 1/2 of the code structure tests pass", "points": 2, "min": 0.5 },
+        { "id": "some", "label": "At least one code structure test passes", "points": 1, "min": 0.01 },
+        { "id": "none", "label": "No code structure tests pass", "points": 0, "min": 0 }
+      ]
+    },
+    {
+      "id": "code_style",
+      "name": "Code style & readability",
+      "description": "Code is for computers AND humans. Humans should be able to read and understand the code you write.",
+      "judge": "ai",
+      "max": 2,
+      "levels": [
+        { "id": "clean", "label": "Exceptional", "points": 2, "description": "Idiomatic, readable, well factored. Has well placed comments and docstrings." },
+        { "id": "rough", "label": "Acceptable", "points": 1, "description": "Code works but hard to follow. Might be over commented or under commented. Might be missing docstrings." },
+        { "id": "poor", "label": "Unacceptable", "points": 0, "description": "Code is Unreadable / unstructured. Human cannot understand it." }
+      ]
+    },
+    {
+      "id": "reflection",
+      "name": "Reflection",
+      "description": "Now that you've completed the assignment, think about what you did and share your thoughts. What did you learn? What confuses you? Where did you struggle? Where might you need more practice? A good reflection is **as specific as possible**, **uses the terminology of the problem domain** (what was learned in class / through readings), and **is actionable** (you can pursue next steps, or be aided in the pursuit).",
+      "judge": "ai",
+      "max": 2,
+      "levels": [
+        { "id": "excellent", "label": "Excellent", "points": 2, "description": "Well written, clear, and actionable. Uses terminology of the problem domain. Specific about what was learned and where more practice is needed." },
+        { "id": "needs_improvement", "label": "Needs Improvement", "points": 1, "description": "Missing one of: well written, actionable, clear, uses terminilogy specific to assignment, demonstrated what was learned." },
+        { "id": "poor", "label": "Missing or poor", "points": 0, "description": "Reflection missing or superficial." }
+      ]
+    }
+  ]
+}
