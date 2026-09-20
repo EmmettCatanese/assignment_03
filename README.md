@@ -212,6 +212,8 @@ Open each file and you'll find a different amount of help waiting:
 By the third app you should be reaching for the two finished apps beside it rather than
 for a list of instructions — which is exactly what you'll do on the job.
 
+**IMPORTANT GRADING NOTE:**  Remove the TODO comments as you write the code. leaving them might impact the code style checker, as its good practivce to *remove TODO comments after you code the TODO itself*
+
 ### Build order at a glance
 
 | order | write this | turns green |
