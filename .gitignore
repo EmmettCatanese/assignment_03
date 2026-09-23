@@ -163,3 +163,4 @@ cython_debug/
 
 # Assignment 03 output files — the apps write these; they are not part of your submission
 data/*.json
+.DS_Store
