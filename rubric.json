@@ -43,16 +43,16 @@
         { "id": "poor", "label": "Missing or Unreadable", "points": 0, "description": "Only use when code is missing, empty, or so disorganized that its purpose cannot be determined at all. This should be extremely rare." }
       ]
     },
-    {
+      {
       "id": "reflection",
       "name": "Reflection",
-      "description": "Now that you've completed the assignment, think about what you did and share your thoughts. What did you learn? What confuses you? Where did you struggle? Where might you need more practice? A good reflection is **as specific as possible**, **uses the terminology of the problem domain** (what was learned in class / through readings), and **is actionable** (you can pursue next steps, or be aided in the pursuit). GRADING GUIDANCE: Grade generously. Start at 2 points. Any sincere reflection that talks about the student's experience with the assignment, such as what they learned, what was hard, or what confused them, earns full credit even if it is brief, informally written, or light on terminology. When in doubt, give 2.",
+      "description": "Now that you've completed the assignment, think about what you did and share your thoughts. What did you learn? What confuses you? Where did you struggle? Where might you need more practice? A good reflection is **as specific as possible**, **uses the terminology of the problem domain** (what was learned in class / through readings), and **is actionable** (you can pursue next steps, or be aided in the pursuit). GRADING GUIDANCE: Grade extremely generously. The reflection is about participation, not quality. If the student wrote anything at all about the assignment, their experience, or their learning, give 2. Length, grammar, specificity, terminology, and depth do not matter. Even a single short or generic sentence earns full credit. You should almost never give less than 2. When in doubt, give 2.",
       "judge": "ai",
       "max": 2,
       "levels": [
-        { "id": "excellent", "label": "Complete", "points": 2, "description": "The default score. The student makes a genuine attempt to reflect on the assignment by mentioning at least one thing they learned, struggled with, found confusing, or want to practice. It does not need to be long, polished, or use perfect terminology. Most submissions should receive this score." },
-        { "id": "needs_improvement", "label": "Minimal", "points": 1, "description": "Only use when the reflection exists but says almost nothing about the assignment, such as a single generic sentence like 'It was fine' or 'I learned a lot' with no mention of anything specific." },
-        { "id": "poor", "label": "Missing", "points": 0, "description": "Only use when the reflection is missing, empty, or completely unrelated to the assignment." }
+        { "id": "excellent", "label": "Complete", "points": 2, "description": "The default score for any attempt. The student wrote something, however brief, general, or informal, that relates to the assignment, what they did, how it went, or how they feel about it. Examples that earn full credit include 'I learned a lot about Streamlit', 'This was hard but fun', or 'I got confused by session state.' Nearly every submission should receive this score." },
+        { "id": "needs_improvement", "label": "Placeholder Only", "points": 1, "description": "Only use when the reflection section contains nothing but leftover template text, placeholder text like 'TODO' or 'N/A', or random characters with no real attempt at a thought." },
+        { "id": "poor", "label": "Missing", "points": 0, "description": "Only use when the reflection is completely missing or totally empty." }
       ]
     }
   ]
