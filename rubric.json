@@ -46,7 +46,7 @@
       {
       "id": "reflection",
       "name": "Reflection",
-      "description": "Now that you've completed the assignment, think about what you did and share your thoughts. What did you learn? What confuses you? Where did you struggle? Where might you need more practice? A good reflection is **as specific as possible**, **uses the terminology of the problem domain** (what was learned in class / through readings), and **is actionable** (you can pursue next steps, or be aided in the pursuit). GRADING GUIDANCE: Grade extremely generously. The reflection is about participation, not quality. If the student wrote anything at all about the assignment, their experience, or their learning, give 2. Length, grammar, specificity, terminology, and depth do not matter. Even a single short or generic sentence earns full credit. You should almost never give less than 2. When in doubt, give 2.",
+      "description": "Take a moment to share a few thoughts about the assignment. You can write about anything: something you learned, something that was tricky, something you're still curious or confused about, or just how it went overall. There's no right or wrong answer, no required length, and no need for formal writing. Any honest attempt earns full credit. GRADING GUIDANCE: Grade extremely generously. The reflection is about participation, not quality. If the student wrote anything at all about the assignment, their experience, or their learning, give 2. Length, grammar, specificity, terminology, and depth do not matter. Even a single short or generic sentence earns full credit. You should almost never give less than 2. When in doubt, give 2.",
       "judge": "ai",
       "max": 2,
       "levels": [
